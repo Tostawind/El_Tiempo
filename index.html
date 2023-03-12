@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Tiempo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="btn-ajustes" class="btn">⚙</button>
+        
+        <div class="ajustes">
+            <button id="btn-cerrar" class="btn">X</button>
+            <div class="buscador-wrapper">
+                <input type="text" id="buscador" placeholder="Ciudad...">
+                <button id="btn-buscar" class="btn">Buscar</button>
+            </div>
+            <h3 id="ciudad">Palma, España</h3>
+        </div>
+        
+        <div class="simbolo-wrapper">
+            <div id="sol" class="simbolo">
+                <p id="temperatura">22ºC</p>
+            </div>
+            <div id="nube" class="simbolo"></div>
+            <div id="lluvia" class="simbolo"></div>
+        </div>
+
+        <div class="hora">14:35</div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
