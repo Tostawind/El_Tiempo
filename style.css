@@ -53,8 +53,9 @@ body {
 #ajustes {
     display: none;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 2em;
     height: 100%;
     width: 100%;
     background-color: var(--BLACK);
@@ -62,8 +63,7 @@ body {
     top: 0;
     left: 0;
     z-index: 10;
-    padding-top: 4em;
-    padding-bottom: 1em;
+    padding: 1em;
 }
 
 #ajustes > #btn-cerrar {
@@ -93,17 +93,22 @@ body {
     width: 80%;
     padding-left: 1em;
     border: none;
+    font-family: monospace;
 }
 #btn-buscar {
     width: 30%;
     background-color: lightskyblue;
     border: none;
     cursor: pointer;
+    font-family: monospace;
+    font-weight: bold;
+    color: var(--BLACK);
 }
 
 #btn-buscar:hover {
     opacity: 0.8;
 }
+
 
 .simbolo-wrapper {
     height: 80%;
@@ -203,7 +208,7 @@ body {
     color: var(--BLACK);
 }
 
-.hora {
+#hora {
     height: 20%;
     font-size: 2.4em;
 }
